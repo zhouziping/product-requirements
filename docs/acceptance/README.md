@@ -1,6 +1,16 @@
 # 验收场景目录
 
-当前没有具体验收场景。本页是目录说明，不代表已确认验收口径。
+## 已收录场景
+
+以下场景均待业务确认，尚未执行，不代表验收通过。
+
+| 编号 | 文档 | 版本 | 关联 Story |
+| --- | --- | --- | --- |
+| AC-001 | [用户手册保留适用的款型校验](AC-001-user-manual-model-year.md) | v0.1 | ST-001 v0.1 |
+| AC-002 | [维修手册不误用用户手册款型校验](AC-002-service-manual-model-year.md) | v0.1 | ST-001 v0.1 |
+| AC-003 | [拆解手册不误用用户手册款型校验](AC-003-disassembly-manual-model-year.md) | v0.1 | ST-001 v0.1 |
+
+## 维护说明
 
 - 从[验收场景模板](../../templates/acceptance-scenario.md)复制到本目录，每个场景单独成文，使用稳定编号或简短名称作为文件名。
 - 引用[功能规格](../features/README.md)条目、版本及适用的 [Story](../stories/README.md)，描述前置条件、操作和可观察的预期结果。

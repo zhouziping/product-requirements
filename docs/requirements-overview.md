@@ -2,7 +2,7 @@
 
 ## 文档状态
 
-本仓库按功能规格、增量 Story、验收场景和验证记录组织，当前没有具体业务条目或验证结果。目录和模板不代表产品范围、排期、交付承诺或验收通过；后续内容须基于可核实且可公开的依据补充。
+本仓库按功能规格、增量 Story、验收场景和验证记录组织，已收录待业务确认的手册发布校验增量及关联验收预期；尚无已确认功能规格或产品验证记录。业务条目不代表产品完整范围、排期、交付承诺、实现完成或验收通过；后续内容须基于可核实且可公开的依据补充。
 
 ## 产品背景与目标
 
@@ -24,17 +24,21 @@
 
 ## 增量 Story 索引
 
-当前无条目。参见[目录说明](stories/README.md)及[增量 Story 模板](../templates/story.md)。
+参见[目录说明](stories/README.md)及[增量 Story 模板](../templates/story.md)。
 
 | 编号 | Story 名称及文档 | 关联功能规格及基线版本 | 业务确认状态 | 优先级及依据 |
 | --- | --- | --- | --- | --- |
+| ST-001 | [按手册类型收敛海外发布款型校验](stories/ST-001-manual-publish-validation.md)（v0.1） | 待确认；尚未收录相关基线 | 待确认 | 待确认；未提供依据 |
 
 ## 验收场景索引
 
-当前无条目。参见[目录说明](acceptance/README.md)及[验收场景模板](../templates/acceptance-scenario.md)。
+参见[目录说明](acceptance/README.md)及[验收场景模板](../templates/acceptance-scenario.md)。以下是预期场景，不是执行结果。
 
 | 编号 | 场景名称及文档 | 场景版本 | 对应规格条目及 Story（如有） | 业务确认状态 |
 | --- | --- | --- | --- | --- |
+| AC-001 | [用户手册保留适用的款型校验](acceptance/AC-001-user-manual-model-year.md) | v0.1 | 规格待确认；ST-001 v0.1 R1、R3 | 待确认 |
+| AC-002 | [维修手册不误用用户手册款型校验](acceptance/AC-002-service-manual-model-year.md) | v0.1 | 规格待确认；ST-001 v0.1 R2、R3 | 待确认 |
+| AC-003 | [拆解手册不误用用户手册款型校验](acceptance/AC-003-disassembly-manual-model-year.md) | v0.1 | 规格待确认；ST-001 v0.1 R2、R3 | 待确认 |
 
 ## 验证记录索引
 
