@@ -1,6 +1,6 @@
 # 验收场景目录
 
-当前标准目录场景均为 v0.1，业务确认待确认、未执行，不代表已确认验收口径或通过结论：
+当前标准目录场景均为 v0.2，业务确认待确认、未执行，不代表已确认验收口径或通过结论：
 
 - [AC-SC-001 异步导入](standard-catalog-async-import.md)。
 - [AC-SC-002 翻译维护路径](standard-catalog-translation-maintenance.md)。

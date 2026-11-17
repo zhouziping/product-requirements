@@ -2,10 +2,10 @@
 
 ## 基本信息与依据
 
-- 编号 / 版本：AC-SC-005 / v0.1。
+- 编号 / 版本：AC-SC-005 / v0.2。
 - 业务确认状态、负责人：待确认。
-- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.1，SC-R06。
-- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.1，SC-D06。
+- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.2，SC-R06。
+- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.2，SC-D06。
 - 依据：规格来源 SRC-SC-01，授权公开的脱敏整理 v0.1；原始来源待提供可公开版本。
 - 适用范围：三类手册的普通导出与检入/检出，分别覆盖。
 
@@ -21,6 +21,8 @@
 
 ## 待确认与验证记录
 
+- 细节确认材料见规格第 6.1～6.2 节，关联 C-SC-06、08 及 Q-SC-04：字段范围、同步影响与回归基线；这些建议尚未确认，不改变本场景的 Then，不据此新增通过标准。
+
 - 可核实的不变行为基线及测试样本见 Q-SC-04；缺少基线不能宣称检入/检出回归通过。确认人待确认。
 - 普通导出的字段适用范围见 Q-SC-03，不从同步下载规则推导其他字段承诺。
 - 未执行，无对应验证记录；实际执行后另建[验证记录](../verification/README.md)，关联本场景及被测版本。
@@ -30,5 +32,6 @@
 | 版本 | 变更与依据 | 确认结论 |
 | --- | --- | --- |
 | v0.1 | 按 SRC-SC-01 提炼不变操作的回归预期 | 业务确认待确认，未执行 |
+| v0.2 | 同步规格/Story v0.2，关联细节确认项及材料，原预期不变 | 新建议待确认，未执行 |
 
 返回[需求概述](../requirements-overview.md)。

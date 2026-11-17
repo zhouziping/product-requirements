@@ -21,7 +21,7 @@
 
 | 编号 | 功能名称及文档 | 规格版本 | 业务确认状态 |
 | --- | --- | --- | --- |
-| FS-SC-001 | [标准目录导入导出与翻译维护](features/standard-catalog-import-export.md) | v0.1 | 待确认；目标规则 |
+| FS-SC-001 | [标准目录导入导出与翻译维护](features/standard-catalog-import-export.md) | v0.2 | 待确认；目标规则 |
 
 ## 增量 Story 索引
 
@@ -29,7 +29,7 @@
 
 | 编号 | Story 名称及文档 | 关联功能规格及基线版本 | 业务确认状态 | 优先级及依据 |
 | --- | --- | --- | --- | --- |
-| ST-SC-001 | [标准目录导入导出优化](stories/standard-catalog-import-export.md) | [FS-SC-001](features/standard-catalog-import-export.md)；无既有仓库规格基线，目标 v0.1 | 待确认 | 待确认 |
+| ST-SC-001 | [标准目录导入导出优化](stories/standard-catalog-import-export.md) | [FS-SC-001](features/standard-catalog-import-export.md)；无既有仓库规格基线，目标 v0.2 | 待确认 | 待确认 |
 
 ## 验收场景索引
 
@@ -37,11 +37,11 @@
 
 | 编号 | 场景名称及文档 | 场景版本 | 对应规格条目及 Story（如有） | 业务确认状态 |
 | --- | --- | --- | --- | --- |
-| AC-SC-001 | [异步导入](acceptance/standard-catalog-async-import.md) | v0.1 | FS-SC-001 v0.1 SC-R01；ST-SC-001 v0.1 SC-D01 | 待确认 |
-| AC-SC-002 | [翻译维护路径](acceptance/standard-catalog-translation-maintenance.md) | v0.1 | FS-SC-001 v0.1 SC-R02、SC-R03；ST-SC-001 v0.1 SC-D02、SC-D03 | 待确认 |
-| AC-SC-003 | [英文导出翻译](acceptance/standard-catalog-english-export.md) | v0.1 | FS-SC-001 v0.1 SC-R04；ST-SC-001 v0.1 SC-D04 | 待确认 |
-| AC-SC-004 | [导出翻译文件兼容](acceptance/standard-catalog-export-fields.md) | v0.1 | FS-SC-001 v0.1 SC-R05；ST-SC-001 v0.1 SC-D05 | 待确认 |
-| AC-SC-005 | [不变操作边界](acceptance/standard-catalog-unchanged-operations.md) | v0.1 | FS-SC-001 v0.1 SC-R06；ST-SC-001 v0.1 SC-D06 | 待确认 |
+| AC-SC-001 | [异步导入](acceptance/standard-catalog-async-import.md) | v0.2 | FS-SC-001 v0.2 SC-R01；ST-SC-001 v0.2 SC-D01 | 待确认 |
+| AC-SC-002 | [翻译维护路径](acceptance/standard-catalog-translation-maintenance.md) | v0.2 | FS-SC-001 v0.2 SC-R02、SC-R03；ST-SC-001 v0.2 SC-D02、SC-D03 | 待确认 |
+| AC-SC-003 | [英文导出翻译](acceptance/standard-catalog-english-export.md) | v0.2 | FS-SC-001 v0.2 SC-R04；ST-SC-001 v0.2 SC-D04 | 待确认 |
+| AC-SC-004 | [导出翻译文件兼容](acceptance/standard-catalog-export-fields.md) | v0.2 | FS-SC-001 v0.2 SC-R05；ST-SC-001 v0.2 SC-D05 | 待确认 |
+| AC-SC-005 | [不变操作边界](acceptance/standard-catalog-unchanged-operations.md) | v0.2 | FS-SC-001 v0.2 SC-R06；ST-SC-001 v0.2 SC-D06 | 待确认 |
 
 ## 验证记录索引
 

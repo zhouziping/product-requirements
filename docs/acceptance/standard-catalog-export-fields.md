@@ -2,10 +2,10 @@
 
 ## 基本信息与依据
 
-- 编号 / 版本：AC-SC-004 / v0.1。
+- 编号 / 版本：AC-SC-004 / v0.2。
 - 业务确认状态、负责人：待确认。
-- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.1，SC-R05。
-- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.1，SC-D05。
+- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.2，SC-R05。
+- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.2，SC-D05。
 - 依据：规格来源 SRC-SC-01，授权公开的脱敏整理 v0.1；原始来源待提供可公开版本。
 - 适用范围：三类手册的导出翻译文件，分别覆盖。
 
@@ -21,6 +21,8 @@
 
 ## 待确认与验证记录
 
+- 细节确认材料见规格第 6.1～6.2 节，关联 C-SC-04、06～07：空值的导入含义、普通导出范围与正式模板兼容；这些建议尚未确认，不改变本场景的 Then，不据此新增通过标准。
+
 - 当前导入模板、编码全集、列顺序与完整校验规则见 Q-SC-03；这些缺失会限制直接导入验收，不能宣称已兼容。
 - 普通导出是否也改字段见 Q-SC-03，不以本场景扩展范围。测试样本见 Q-SC-04，确认人待确认。
 - 未执行，无对应验证记录；实际执行后另建[验证记录](../verification/README.md)，关联本场景及被测版本。
@@ -30,5 +32,6 @@
 | 版本 | 变更与依据 | 确认结论 |
 | --- | --- | --- |
 | v0.1 | 按 SRC-SC-01 提炼字段与直接导入兼容预期 | 业务确认待确认，未执行 |
+| v0.2 | 同步规格/Story v0.2，关联细节确认项及材料，原预期不变 | 新建议待确认，未执行 |
 
 返回[需求概述](../requirements-overview.md)。

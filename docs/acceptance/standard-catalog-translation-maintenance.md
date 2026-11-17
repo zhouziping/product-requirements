@@ -2,10 +2,10 @@
 
 ## 基本信息与依据
 
-- 编号 / 版本：AC-SC-002 / v0.1。
+- 编号 / 版本：AC-SC-002 / v0.2。
 - 业务确认状态、负责人：待确认。
-- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.1，SC-R02、SC-R03。
-- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.1，SC-D02、SC-D03。
+- 规格：[FS-SC-001](../features/standard-catalog-import-export.md) v0.2，SC-R02、SC-R03。
+- Story：[ST-SC-001](../stories/standard-catalog-import-export.md) v0.2，SC-D02、SC-D03。
 - 依据：规格来源 SRC-SC-01，授权公开的脱敏整理 v0.1；原始来源待提供可公开版本。
 - 适用范围：维修手册、用户手册、拆解手册的标准目录，分别覆盖。
 
@@ -21,6 +21,8 @@
 
 ## 待确认与验证记录
 
+- 细节确认材料见规格第 6.1～6.2 节，关联 C-SC-08：其他同步方向、触发及冲突边界；这些建议尚未确认，不改变本场景的 Then，不据此新增通过标准。
+
 - 其他同步链路与历史数据处理见 Q-SC-05，不将本场景解释为禁止一切后续翻译同步或删除后端接口。
 - 权限与测试样本见 Q-SC-04；不新增覆盖、冲突处理或保存时限规则。确认人待确认。
 - 未执行，无对应验证记录；实际执行后另建[验证记录](../verification/README.md)，关联本场景及被测版本。
@@ -30,5 +32,6 @@
 | 版本 | 变更与依据 | 确认结论 |
 | --- | --- | --- |
 | v0.1 | 按 SRC-SC-01 提炼翻译维护路径预期 | 业务确认待确认，未执行 |
+| v0.2 | 同步规格/Story v0.2，关联细节确认项及材料，原预期不变 | 新建议待确认，未执行 |
 
 返回[需求概述](../requirements-overview.md)。
